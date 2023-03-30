@@ -10,6 +10,7 @@ EMOTIONS = ["angry", "disgust", "scared", "happy", "sad", "surprised", "neutral"
 
 # Set up video capture
 cap = cv2.VideoCapture(0)
+
 while True:
     # Read a frame
     ret, frame = cap.read()
